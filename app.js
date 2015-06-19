@@ -36,7 +36,7 @@ app.controller('tableCtrl', function ($scope) {
     };
 
     $scope.backFunc = function (x) {
-        $('#element-info').slideUp(500);
+        $('#element-info').slideUp(300);
         $("html, body").animate({
             scrollTop: 0
         }, 500);
@@ -63,7 +63,7 @@ app.controller('tableCtrl', function ($scope) {
     $('.element').click(function () {
         $scope.id = $(this).attr('id');
         $scope.clickFunc();
-        $('#element-info').slideDown(500);
+        $('#element-info').slideDown(300);
         return false;
     });
 
