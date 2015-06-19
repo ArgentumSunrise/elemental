@@ -1,0 +1,274 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+@font-face {
+    font-family: Engel;
+    src: url(fonts/EngelLight_ltd.ttf);
+}
+
+@font-face {
+    font-family: Dense;
+    src: url(fonts/Dense-Regular.otf);
+}
+
+@font-face {
+    font-family: Engel;
+    src: url(fonts/EngelLight_ltd.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    text-align: center;
+}
+
+hr {
+    color: #999;
+    background-color: #999;
+    width: 300px;
+    margin-top: -30px;
+}
+
+#header {
+    width: 100%;
+    font-family: Source Sans Pro;
+    position: fixed;
+    display: table;
+    table-layout: fixed;
+}
+
+.upTop {
+    background-color: rgba(52, 152, 219, 1.0);
+    display: table-cell;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition-duration: .3s;
+}
+
+.upTop:hover {
+    opacity: .8;
+}
+
+.upTop:active {
+    opacity: .5;
+}
+
+#title,
+#abt-title {
+    font-family: Engel;
+    letter-spacing: 5px;
+    margin-top: 210px;
+}
+
+#title {
+    font-size: 75px;
+}
+
+#abt-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Source Sans Pro;
+    font-size: 25px;
+}
+
+#creator {
+    margin-top: 50px;
+}
+
+#creator a,
+.info a {
+    text-decoration: none;
+    color: rgba(52, 152, 219, 1.0);
+    transition-duration: .3s;
+}
+
+#creator-a:hover {
+    color: rgba(52, 152, 219, 0.7);
+}
+
+#subtitle {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+}
+
+#table-container {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 1080px;
+    margin-left: calc( 50% - 540px);
+}
+
+.row {
+    height: 60px;
+}
+
+.element {
+    font-family: Dense;
+    padding-top: 8px;
+    font-size: 40px;
+    width: 60px;
+    box-sizing: border-box;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.element:hover {
+    opacity: .7;
+}
+
+.alkali-m {
+    background-color: rgba(246, 71, 71, 0.5);
+}
+
+.alkali-e {
+    background-color: rgba(242, 121, 53, 0.5);
+}
+
+.transition {
+    background-color: rgba(247, 202, 24, 0.5);
+}
+
+.halogen {
+    background-color: rgba(142, 68, 173, 0.5);
+}
+
+.semimetal {
+    background-color: rgba(38, 166, 91, 0.5);
+}
+
+.nonmetal {
+    background-color: rgba(210, 82, 127, 0.5);
+}
+
+.basic-m {
+    background-color: rgba(129, 207, 224, 0.5);
+}
+
+.noble {
+    background-color: rgba(25, 181, 254, 0.5);
+}
+
+.lanthanide {
+    background-color: rgba(41, 128, 185, 0.6);
+}
+
+.actinide {
+    background-color: rgba(44, 62, 80, 0.5);
+}
+
+.gap,
+.element {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    float: left;
+}
+
+.gap1 {
+    width: 60px;
+}
+
+.gap2 {
+    width: 180px;
+}
+
+#he,
+#b,
+#c,
+#n,
+#o,
+#f,
+#ne,
+#al,
+#si,
+#p,
+#s,
+#cl,
+#ar {
+    float: right;
+}
+
+#h {
+    background-color: rgba(191, 191, 191, 0.5);
+}
+
+#element-info {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    border: 1px solid rgba(189, 195, 199, 1.0);
+    font-family: Source Sans Pro;
+    display: none;
+}
+
+#element-info h1 {
+    margin-bottom: 40px;
+    font-family: Engel;
+}
+
+#element-info h6 {
+    position: relative;
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+#hr-top {
+    margin-bottom: 40px;
+    width: 40%;
+}
+
+#hr-bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#element-info h2 {
+    font-family: Engel;
+}
+
+.fa {
+    margin-top: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.fa:hover {
+    opacity: .6;
+}
+
+.fa:active {
+    opacity: .3;
+}
