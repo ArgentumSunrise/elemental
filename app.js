@@ -3,14 +3,14 @@ var app = angular.module('tableApp', ['ngRoute']);
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
     when('/', {
-        templateUrl: '/partials/table.html',
+        templateUrl: 'partials/table.html',
         controller: 'tableCtrl',
     }).
     when('/about', {
-        templateUrl: '/partials/about.html',
+        templateUrl: 'partials/about.html',
     }).
     when('/contact', {
-        templateUrl: '/partials/contact.html',
+        templateUrl: 'partials/contact.html',
     }).
     otherwise({
         redirectTo: '/',
