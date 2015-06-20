@@ -47,6 +47,7 @@ hr {
     position: fixed;
     display: table;
     table-layout: fixed;
+    z-index: 5;
 }
 
 .upTop {
@@ -63,11 +64,11 @@ hr {
 }
 
 .upTop:hover {
-    opacity: .8;
+    background-color: rgba(52, 152, 219, 0.8);
 }
 
 .upTop:active {
-    opacity: .5;
+    background-color: rgba(52, 152, 219, 0.5);
 }
 
 #title,
