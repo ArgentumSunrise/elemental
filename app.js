@@ -50,7 +50,7 @@ app.controller('tableCtrl', function ($scope) {
         $('#weight').text('Atomic Weight: ' + x.weight);
         $('#electrons').text('Electrons: ' + x.e);
         $('#protons').text('Protons: ' + x.p);
-        $('#neutrons').text('Neutrons: ' + x.n);
+        $('#boil').text('Neutrons: ' + x.boil);
         $('#melt').text('Melting Point: ' + x.melt);
         $('#iso').text('Isotopes: ' + x.iso);
         $('#group').text('Group: ' + x.group);
