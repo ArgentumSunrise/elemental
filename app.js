@@ -57,7 +57,7 @@ app.controller('tableCtrl', function ($scope) {
         $('#info').text(x.info);
         $('#dying').text(x.dying);
         $('#uses').text(x.uses);
-        $('#color').text(x.color);
+        $('#location').text(x.here);
     };
 
     $('.element').click(function () {
