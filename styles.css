@@ -34,6 +34,10 @@ body {
     text-align: center;
 }
 
+ng-view {
+    z-index: -1;
+}
+
 hr {
     color: #999;
     background-color: #999;
