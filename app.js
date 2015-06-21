@@ -41,6 +41,9 @@ app.controller('tableCtrl', function ($scope) {
             scrollTop: 0
         }, 500);
         x = {};
+        setTimeout(function () {
+            $('html, body').css('padding-bottom', '0');
+        }, 500);
         return false;
     };
 
@@ -64,10 +67,11 @@ app.controller('tableCtrl', function ($scope) {
         $scope.id = $(this).attr('id');
         $scope.clickFunc();
         $('#element-info').slideDown(300);
+        $('html, body').css('padding-bottom', '100px');
         return false;
     });
 
     $('i.fa').click(function () {
-        $scope.backFunc();
+        $scope.backFunc(x);
     });
 });
