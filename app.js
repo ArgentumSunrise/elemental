@@ -55,7 +55,7 @@ app.controller('tableCtrl', function ($scope) {
         $('#protons').text('Protons: ' + x.p);
         $('#boil').text('Boiling Point: ' + x.boil);
         $('#melt').text('Melting Point: ' + x.melt);
-        $('#iso').text('Isotopes: ' + x.iso);
+        $('#iso').text('Stable Isotopes: ' + x.iso);
         $('#group').text('Group: ' + x.group);
         $('#info').text(x.info);
         $('#dying').text(x.dying);
