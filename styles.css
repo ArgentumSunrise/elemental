@@ -280,3 +280,78 @@ hr {
 .fa:active {
     opacity: .3;
 }
+
+@media screen and (max-width: 1100px),
+handheld {
+    #title,
+    #abt-title {
+        letter-spacing: 2.5px;
+        margin-top: 100px;
+    }
+    #title {
+        font-size: 50px;
+    }
+    #abt-title {
+        font-size: calc( 50px / 3);
+    }
+    #table-container {
+        padding-top: 12.5px;
+        padding-bottom: 25px;
+        width: 540px;
+        margin-left: calc( 50% - 270px);
+    }
+    .element {
+        padding-top: 4px;
+        font-size: 20px;
+        width: 30px;
+        box-sizing: border-box;
+    }
+    .gap,
+    .element {
+        height: 30px;
+    }
+    .gap1 {
+        width: 30px;
+    }
+    .gap2 {
+        width: 90px;
+    }
+    .row {
+        height: 30px;
+    }
+    .info {
+        font-size: 12.5px;
+    }
+    #element-info {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    #element-info h6 {
+        font-size: 7.5px;
+        margin-top: -7.5px;
+    }
+    #element-info p {
+        font-size: 7.5px;
+    }
+    #element-info h1 {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #hr-top {
+        margin-bottom: 30px;
+    }
+    #hr-bottom {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .fa {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .upTop {
+        font-size: 7.5px;
+        padding-top: 22.5px;
+        padding-bottom: 25px;
+    }
+}
