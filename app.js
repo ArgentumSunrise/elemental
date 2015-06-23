@@ -67,7 +67,7 @@ app.controller('tableCtrl', function ($scope) {
         $scope.id = $(this).attr('id');
         $scope.clickFunc();
         $('#element-info').slideDown(300);
-        $('html, body').css('padding-bottom', '300px');
+        $('html, body').css('padding-bottom', '250px');
         return false;
     });
 
