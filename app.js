@@ -42,7 +42,7 @@ app.controller('tableCtrl', function ($scope) {
         }, 500);
         x = {};
         setTimeout(function () {
-            $('html, body').css('padding-bottom', '0');
+            $('#element-info').css('margin-bottom', '0');
         }, 500);
         return false;
     };
@@ -67,7 +67,7 @@ app.controller('tableCtrl', function ($scope) {
         $scope.id = $(this).attr('id');
         $scope.clickFunc();
         $('#element-info').slideDown(300);
-        $('html, body').css('padding-bottom', '200px');
+        $('#element-info').css('margin-bottom', '200px');
         return false;
     });
 
