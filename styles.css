@@ -75,7 +75,8 @@ hr {
 }
 
 #title,
-#abt-title {
+#abt-title,
+#other-title {
     font-family: Engel;
     letter-spacing: 5px;
     margin-top: 210px;
@@ -88,6 +89,11 @@ hr {
 #abt-title {
     font-size: 50px;
     margin-bottom: 50px;
+}
+
+#other-title {
+    font-size: 35px;
+    margin-bottom: 35px;
 }
 
 .info {
